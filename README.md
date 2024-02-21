@@ -1,2 +1,2 @@
 # To_Do_List_Web_App
- A minimalist to-do list web app built with HTML, CSS, and JavaScript. Users can add and delete tasks effortlessly. It's lightweight, responsive, and utilizes localStorage for seamless task persistence. Perfect for organizing daily activities.
+The Simple To-Do List Web App is a basic productivity tool designed to help users organize their tasks and manage their daily activities efficiently. Built using HTML, CSS, and JavaScript, this web application provides a user-friendly interface for adding and removing tasks. Users can easily create new tasks, mark them as completed, and delete tasks they no longer need.
