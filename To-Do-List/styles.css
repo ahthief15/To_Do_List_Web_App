@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:10%;
+    background: linear-gradient(135deg , #b3ebf1, #170232);
+    height: 100vh;
+    color: rgb(12, 12, 12);
+  
+   
+}
+.container{
+    border: none;
+    background: white;
+    padding: 10%;
+    border-radius: 30px;
+}
+
+.header h1{
+    display: flex;
+    font-size: 2.0rem;  
+}
+
+.header img{
+    width: 4vw;
+    margin-left: 4%;
+}
+
+.row{
+    display: flex;
+    border: 3px solid rgb(247, 136, 9);
+    border-radius: 30px;
+    height: 5vh;
+    padding-left: 5%;
+    
+}
+
+.row input{
+   flex: 1;
+   outline: none;
+   border: none;
+   background: transparent;
+   width: 100%;
+   cursor: pointer;
+   color: black;  
+}
+
+.row button{
+    background: rgb(255, 143, 6);
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+   
+    width: 15vw;
+    cursor: pointer;
+
+}
+
+#task-container{
+    padding-left: 3%;
+
+
+}
+
+#task-container li {
+    display: flex;
+    list-style: none;
+    margin-top: 10%;
+    border-bottom: #c5c2c9 1px solid;
+    padding-bottom: 5%;
+    cursor: pointer;
+}
+
+#task-container li::before {
+   content: " ";
+   height: 20px;
+   width: 20px;
+   margin-right: 5%;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-image: url(images/unchecked.png);
+}
+
+#task-container li.checked::before {
+    background-image: url(images/checked.png);
+}
+
+#task-container li.checked{
+    text-decoration: line-through;
+    color: antiquewhite;
+    
+}
+
+
+
+
+#task-container li span {
+    position: absolute;
+    margin-left: 58%;
+    background-color: #c5c2c9;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #170232;
+    
+}
+
+#task-container span:hover {
+    background-color: coral;
+}
